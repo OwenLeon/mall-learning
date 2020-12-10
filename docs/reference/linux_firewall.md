@@ -32,7 +32,7 @@ firewall-cmd --reload
 ```
 - 开放端口（修改后需要重启防火墙方可生效）：
 ```shell
-firewall-cmd --zone=public --add-port=8080/tcp --permanent
+firewall-cmd --zone=public --add-port=8088/tcp --permanent
 ```
 ![](../images/refer_screen_31.png)
 - 查看开放的端口：

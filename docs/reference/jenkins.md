@@ -21,9 +21,10 @@ docker pull jenkins/jenkins:lts
 - 在Docker容器中运行Jenkins：
 
 ```bash
-docker run -p 8080:8080 -p 50000:5000 --name jenkins \
+docker run -p 8080:8080 -p 50000:50000 --name jenkins \
 -u root \
 -v /mydata/jenkins_home:/var/jenkins_home \
+-v /root/.m2/repository:/root/.m2/repository \
 -d jenkins/jenkins:lts
 ```
 
