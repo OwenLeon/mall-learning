@@ -323,3 +323,8 @@ ln -s /mydata/docker /var/lib/docker
 
 ![公众号图片](http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/banner/qrcode_for_macrozheng_258.jpg)
 
+
+owen:
+pip install runlike
+查看容器的启动命令
+runlike -p jenkins
