@@ -24,7 +24,7 @@ docker pull jenkins/jenkins:lts
 docker run -p 8080:8080 -p 50000:50000 --name jenkins \
 -u root \
 -v /mydata/jenkins_home:/var/jenkins_home \
--v /root/.m2/repository:/root/.m2/repository \
+-v /root/.m2:/root/.m2 \
 -d jenkins/jenkins:lts
 ```
 

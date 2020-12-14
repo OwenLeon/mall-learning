@@ -328,3 +328,5 @@ owen:
 pip install runlike
 查看容器的启动命令
 runlike -p jenkins
+
+
